@@ -1,0 +1,99 @@
+.email-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #333;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .email-edit-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .email-edit-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .edit-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .save-button,
+  .cancel-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+  }
+  
+  .save-button:disabled {
+    background-color: #a5d6a7;
+    cursor: not-allowed;
+  }
+  
+  .cancel-button {
+    background-color: #6c757d;
+  }
+  
+  .email-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  

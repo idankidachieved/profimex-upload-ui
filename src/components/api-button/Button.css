@@ -1,0 +1,23 @@
+.CompareButton{
+    background-color: #CC2027;
+    color: white;
+    width: 200px;
+    aspect-ratio: 2;
+    border-radius: 10px;
+}
+
+.CompareButton:hover{
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+.disabled{
+    background-color: #BDBDBD;
+    color: #757575;
+    cursor: not-allowed;
+}
+
+.disabled:hover{
+    background-color: #BDBDBD;
+    cursor: not-allowed;
+}
